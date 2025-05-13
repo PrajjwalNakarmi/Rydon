@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #2c3e50;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
+/* Profile Section */
+.profile-section {
+    width: 95%;
+    max-width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+/* Profile Card */
+.profile-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 350px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.profile-card .email {
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.profile-card .role {
+    background-color: #ff6600;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+/* Profile Info Form */
+.profile-info {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    flex: 1 1 500px;
+}
+
+.profile-info h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.profile-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.profile-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.profile-form button {
+    margin-top: 25px;
+    padding: 12px 20px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-form button:hover {
+    background-color: #e65c00;
+}

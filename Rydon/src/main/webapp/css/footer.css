@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#footer {
+  background-color: #222;
+  color: #f0f0f0;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#footer li {
+  display: inline-block;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+#footer a:hover {
+  color: #ff6600;
+  text-shadow: 0 0 5px rgba(255, 102, 0, 0.7);
+}

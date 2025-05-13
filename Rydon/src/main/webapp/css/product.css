@@ -1,0 +1,184 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px 50px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.nav-links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
+/* Banner */
+.rent-banner {
+    background: linear-gradient(90deg, #ff6600 0%, #ff8533 100%);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.rent-banner h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.rent-banner p {
+    font-size: 20px;
+}
+
+/* Enhanced Search Styling */
+.banner-search {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.banner-search input {
+    width: 350px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.banner-search input:focus {
+    box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.4);
+}
+
+.banner-search button {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background 0.3s, transform 0.2s;
+}
+
+.banner-search button:hover {
+    background-color: #ff6600;
+    transform: scale(1.1);
+}
+
+.banner-search img {
+    width: 22px;
+    height: 22px;
+    filter: brightness(0.3);
+}
+
+.banner-search button:hover img {
+    filter: brightness(0) invert(1);
+}
+
+/* Bike List */
+.bike-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.bike-card {
+    background: #ffffff;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bike-card:hover {
+    transform: translateY(-10px);
+}
+
+.bike-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.bike-card h2 {
+    font-size: 24px;
+    margin: 15px 0 5px;
+}
+
+.bike-card p {
+    font-size: 14px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+    color: #555;
+    text-align: center;
+}
+
+.rental-options {
+    margin: 15px 0;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.rental-options label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.rental-options select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.rent-now {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.rent-now:hover {
+    background-color: #e65c00;
+}
