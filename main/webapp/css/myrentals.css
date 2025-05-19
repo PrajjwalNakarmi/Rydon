@@ -1,0 +1,22 @@
+/* Rentals Status Badge */
+.status {
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.status.active {
+    background-color: #ff9900;
+    color: white;
+}
+
+.status.completed {
+    background-color: #28a745;
+    color: white;
+}
+
+.status.cancelled {
+    background-color: #dc3545;
+    color: white;
+}

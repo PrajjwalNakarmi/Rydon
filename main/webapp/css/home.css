@@ -1,0 +1,165 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.nav-links a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+
+/* Banner */
+.banner {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* dark overlay */
+}
+
+.banner-content {
+    position: relative;
+    z-index: 1;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.banner-button {
+    padding: 12px 30px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.banner-button:hover {
+    background-color: #e65c00;
+}
+
+/* Welcome Section */
+.welcome {
+    padding: 60px 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.welcome h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1;
+    min-width: 250px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature .icon {
+    font-size: 36px;
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Call to Action */
+.cta {
+    padding: 60px 50px;
+    text-align: center;
+    background-color: #ff6600;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.rent-button {
+    padding: 12px 30px;
+    background-color: #fff;
+    color: #ff6600;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.rent-button:hover {
+    background-color: #ffe6cc;
+}

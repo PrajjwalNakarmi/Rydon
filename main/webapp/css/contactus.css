@@ -1,0 +1,105 @@
+@charset "UTF-8";
+.contactus-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background: #ffffff;
+}
+
+.contactus-card {
+    background: #fff;
+    padding: 40px;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.contactus-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.title .highlight {
+    color: #ff6600; /* orange highlight */
+}
+
+.intro {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #2c3e50;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #ff6600;
+    outline: none;
+    background-color: #fff;
+}
+
+.submit-btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.submit-btn:hover {
+    background-color: #e65c00;
+}
+.popup {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            padding: 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            display: none;
+            z-index: 1000;
+        }
